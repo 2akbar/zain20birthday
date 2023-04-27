@@ -1,3 +1,40 @@
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c5e1a5;
+  height: 100vh;
+}
+
+.intro-heading {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1b5e20;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-family: "Pacifico", cursive;
+}
+
+.intro-image {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin-bottom: 2rem;
+  border: 5px solid #1b5e20;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.intro-text {
+  font-size: 2rem;
+  text-align: center;
+  color: #2d3436;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
 .animated-text {
   opacity: 0;
   animation: fadeIn 1s ease forwards;
