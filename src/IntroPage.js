@@ -9,9 +9,11 @@ function IntroPage() {
     "Happy Birthday, Zain!",
     "I am so excited to celebrate your special day!",
     "May your day be filled with joy, laughter, and lots of love from family and friends.",
-    "I hope this website will make your birthday even more memorable.",
-    "From the green landscapes to Daniel Ricciardo, we've included all your favorite things.",
+    "I hope this small page makes your birthday even more amazing.",
     "Cheers to a wonderful 20th year of life and many more to come!",
+    "I wish you enjoy your birthday!",
+    "And thanks for being such a great friend!",
+    "And that is it🫡😅🫡",
   ];
 
   useEffect(() => {
