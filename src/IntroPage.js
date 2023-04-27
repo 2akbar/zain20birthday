@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./IntroPage.css";
 
 function IntroPage(props) {
-  const [showText, setShowText] = useState(false);
   const [currentSentence, setCurrentSentence] = useState(0);
 
   useEffect(() => {
@@ -12,7 +11,7 @@ function IntroPage(props) {
       );
     }, 3000);
     return () => clearInterval(interval);
-  }, []);
+  }, [sentences.length]);
 
   const sentences = [
     "Happy Birthday, Zain!",
@@ -22,10 +21,6 @@ function IntroPage(props) {
     "From the beautiful nature and landscapes to the amazing racing tracks that Daniel Ricciardo has conquered, we've included all your favorite things.",
     "Cheers to a wonderful 20th year of life and many more to come!",
   ];
-
-  useEffect(() => {
-    setShowText(true);
-  }, []);
 
   return (
     <div>
