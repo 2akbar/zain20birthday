@@ -10,7 +10,7 @@ function IntroPage() {
     "I am so excited to celebrate your special day!",
     "May your day be filled with joy, laughter, and lots of love from family and friends.",
     "I hope this website will make your birthday even more memorable.",
-    "From the beautiful landscapes to Daniel Ricciardo, we've included your favorite things.",
+    "From the green landscapes to Daniel Ricciardo, we've included all your favorite things.",
     "Cheers to a wonderful 20th year of life and many more to come!",
   ];
 
