@@ -13,7 +13,6 @@
   margin-bottom: 2rem;
   color: #1b5e20;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  font-family: "Pacifico", cursive;
 }
 
 .intro-image {
@@ -35,6 +34,7 @@
   text-align: center;
   color: #1b5e20;
   font-family: "Montserrat", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   font-weight: bold;
   margin-bottom: 2rem;
 }
