@@ -1,15 +1,11 @@
 import React from "react";
+import IntroPage from "./IntroPage";
 import zainImage from "./zain.jpg";
 
 function App() {
   return (
     <div>
-      <h1>Happy 20th Birthday Zain!</h1>
-      <img alt="Zain while she was baby" src={zainImage} />
-      <p>
-        Welcome to your birthday website! We hope you enjoy exploring and
-        celebrating your special day.
-      </p>
+      <IntroPage zainImage={zainImage} />
     </div>
   );
 }
