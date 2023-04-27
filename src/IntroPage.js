@@ -17,13 +17,16 @@ function IntroPage() {
   ];
 
   useEffect(() => {
+    if (currentSentence === sentences.length - 1) {
+      return;
+    }
     const interval = setInterval(() => {
       setCurrentSentence((currentSentence) =>
         currentSentence < sentences.length - 1 ? currentSentence + 1 : 0
       );
     }, 3000);
     return () => clearInterval(interval);
-  }, [sentences.length]);
+  }, [currentSentence, sentences.length]);
 
   return (
     <div className="intro-container">
