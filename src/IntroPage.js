@@ -20,7 +20,7 @@ function IntroPage(props) {
       );
     }, 3000);
     return () => clearInterval(interval);
-  }, []);
+  }, [sentences.length]);
 
   return (
     <div>
